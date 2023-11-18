@@ -1,0 +1,35 @@
+.form-login .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-registration .form-floating:focus-within {
+    z-index: 2;
+}
+
+
+.form-login #username {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-login #password {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.form-register #name {
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.form-register #username, #email {
+    margin-bottom: -1px;
+    border-radius: 0;
+}
+
+.form-register #password {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
